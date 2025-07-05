@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkin Park</title>
+    <style>
+        body{
+            background-color: rgb(240, 200, 250);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        header{
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 15px;
+            color: white;
+        }
+
+        main{
+            width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;text-align: justify;
+        }
+
+        #album{
+            width: 200px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+        }
+
+        .musicList{
+            background-color: rgb(230, 163, 243);
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.185);
+            display: flex;
+            width: 570px;
+            margin: auto;
+            text-align: left;
+        }
+
+        .musicListSpecified{
+            width: 300px;
+            display: block;
+            margin: 14px;
+        }
+
+        .musicList > a{
+            display: flex;
+            width: 200px;
+            height: 200px;
+            margin-top: 90px;
+            transition: transform 0.3s ease;
+
+        }
+
+        .musicList > a:hover{
+            transform: translateY(-5px) translateX(5px) scale(1.05);
+        }
+
+        #albums{
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .capa{
+            width: 100px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th{
+            background-color: lightgray;
+        }
+
+        #changeBackgroundColor{
+            display: flex;
+            align-items: center;
+            width: 200px;
+            height: 50px;
+            border-radius: 20px;
+            border-color: rgb(185, 72, 207);
+            background-color: rgb(230, 199, 236);
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        button{
+            display: flex;
+            align-items: center;
+            width: 200px;
+            height: 50px;
+            border-radius: 20px;
+            border-color: rgb(185, 72, 207);
+            background-color: rgb(230, 199, 236);
+            margin: auto;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="title">Linkin Park lança novo álbum e fãs vão à loucura</h1>
+    </header>
+    <main>
+        <h2>Com a participação da nova integrante do grupo, Emilly Armstrong, a banda lança seu álbum de número 8 e os fãs ficam animados com a conitnuidade da banda.</h2>
+
+        <p>Após sete anos de silêncio nos estúdios, o Linkin Park está de volta com o lançamento de From Zero, seu oitavo álbum de estúdio. Divulgado oficialmente no dia 15 de novembro de 2024, o novo trabalho marca uma nova fase na trajetória da banda, misturando a essência do nu metal que consagrou o grupo com elementos mais experimentais e letras intensas que dialogam com temas como superação, identidade e renascimento.</p>
+
+        <p>A repercussão entre os fãs foi imediata. Nas redes sociais, milhares de postagens celebraram o retorno da banda, que agora conta com novos integrantes: a vocalista Emily Armstrong e o baterista Colin Brittain. A presença de Armstrong nos vocais — a primeira mulher a integrar oficialmente o grupo — surpreendeu positivamente os admiradores, que elogiaram sua performance emotiva e potente.</p>
+
+        <p>Apesar da ausência insubstituível de Chester Bennington, vocalista original falecido em 2017, os integrantes remanescentes deixaram claro que From Zero não se trata de apagar o passado, mas de continuar a história com respeito e coragem. “É uma carta aberta aos nossos sentimentos, aos nossos fãs e ao que a música ainda significa para nós”, declarou Mike Shinoda, em entrevista recente.</p>
+
+        <p>Com composições que alternam entre a fúria melódica e momentos de introspecção, From Zero já ocupa o topo das paradas de streaming e reacende o entusiasmo em torno de uma das bandas mais influentes do início dos anos 2000. Se depender da reação dos fãs, o Linkin Park ainda tem muito o que dizer.</p>
+
+        <div class="musicList">
+            <div class="musicListSpecified">
+                <h3>Confira as músicas do novo álbum:</h3>
+                <ol>
+                    <li>From Zero (Intro) – 0:22</li>
+                    <li>The Emptiness Machine – 3:10</li>
+                    <li>Cut the Bridge – 3:48</li>
+                    <li>Heavy Is the Crown – 2:47</li>
+                    <li>Over Each Other – 2:50</li>
+                    <li>Casualty – 2:20</li>
+                    <li>Overflow – 3:31</li>
+                    <li>Two Faced – 3:03</li>
+                    <li>Stained – 3:05</li>
+                    <li>IGYEIH – 3:29</li>
+                    <li>Good Things Go – 3:29</li>
+                    <li>Up From the Bottom – 3:03</li>
+                    <li>Unshatter – 3:16</li>
+                    <li>Let You Fade – 3:28</li>
+                </ol>
+            </div>
+            <a href="https://www.youtube.com/playlist?list=OLAK5uy_lreq2D02OWGfzoW_zXMu4PA-tf2hf94AA" rel="external" target="_blank"><img src="from_zero.png" alt="album" id="album"></a>
+        </div>
+
+        <h3>Ouça agora a primeira música do álbum:</h3>
+        <audio controls>
+        <source src="The Emptiness Machine (Official Music Video) - Linkin Park [SRXH9AbT280].mp3" type="audio/mp3">
+        Seu navegador não suporta esse tipo de áudio
+        </audio>
+
+        <h3>Veja a discografia completa da banda</h3>
+
+        <table id="albums">
+            <tr>
+                <th>Nome do álbum</th>
+                <th>Ano de lançamento</th>
+                <th>Capa</th>
+            </tr>
+            <tr>
+                <td>Hybrid Theory</td>
+                <td>2000</td>
+                <td><img src="images/hybrid_theory.png" alt="hybrid theory" class="capa"></td>
+            </tr>
+            <tr>
+                <td>Meteora</td>
+                <td>2003</td>
+                <td><img src="images/meteora.png" alt="meteora" class="capa"></td>
+            </tr>
+            <tr>
+                <td>Minutes to Midnight</td>
+                <td>2007</td>
+                <td><img src="images/minutes_to_midnight.png" alt="minutes to Midnight" class="capa"></td>
+            </tr>
+            <tr>
+                <td>A Thousand Suns</td>
+                <td>2010</td>
+                <td><img src="images/a_thousand_suns.png" alt="A Thousand Suns" class="capa"></td>
+            </tr>
+            <tr>
+                <td>Living Things</td>
+                <td>2012</td>
+                <td><img src="images/living_things.png" alt="living_things" class="capa"></td>
+            </tr>
+            <tr>
+                <td>The Hunting Party</td>
+                <td>2014</td>
+                <td><img src="images/the_hunting_party.png" alt="the_hunting_party" class="capa"></td>
+            </tr>
+            <tr>
+                <td>One More Light</td>
+                <td>2017</td>
+                <td><img src="images/onemorelight.png" alt="onemorelight" class="capa"></td>
+            </tr>
+            <tr>
+                <td>From Zero</td>
+                <td>2024</td>
+                <td><img src="images/from_zero.png" alt="from Zero" class="capa"></td>
+            </tr>
+        </table>
+        <button onclick="changeColor()" id="changeBackgroundColor">
+            Clique para alterar a cor do fundo
+        </button>
+        <button onclick="contarCliques()">Clique aqui
+        </button>
+        <p>Você clicou <span id="contador">0</span> vezes.</p>
+
+        <button onclick="mudarTexto()">CLIQUE PARA UMA SURPRESA</button>
+    </main>
+    <script>
+
+        function changeColor() {
+            const h = (Math.random() * 360);
+            const s = (Math.random() * 100);
+            const l = (Math.random() * 100);
+            const corHSL = `hsl(${h}, ${s}%, ${l}%)`;
+            document.body.style.backgroundColor = corHSL
+        }
+
+        let cliques = 0;
+        function contarCliques() {
+           cliques++;
+           document.getElementById("contador").textContent = cliques;
+  }
+
+        function mudarTexto() {
+            document.getElementById("title").textContent = "O mundo é uma mentira";
+        }
+
+    </script>
+</body>
+</html>
