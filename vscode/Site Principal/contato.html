@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatol</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <h1 class="title">Ajude Guga a Voar nas Estrelas!</h1>
+        <nav>
+            <a href="inicio.html" class="links">Início</a> |
+            <a href="sobre.html" class="links">Sobre</a> |
+            <a href="contato.html" class="links">Contato</a>
+          </nav>
+         
+    </header>
+<main>
+    <h1 class="title3">Formulário de Contato:</h2>
+    
+    <section class="intro">
+      <p class="text">Se quiser receber mais informações sobre a organização, deixar uma mensagem e doar uma quantia de dinheiro, preencha o seguinte formulário.</p>
+    </section>
+    <h1 class="title3">Entre em Contato:</h2>
+    <section class="formulario">
+      <form id="formContato">
+        <label>Nome completo:</label>
+        <input type="text" name="nome" required />
+        <br>
+        <label>Valor da doação:</label>
+        <input type="number" name="Idade"required>
+        <br>
+        <label>E-mail:</label>
+        <input type="email" name="email[]" required />
+        <div id="maisEmails"></div>
+        <button type="button" class="botao-secundario" onclick="adicionarEmail()">Adicionar outro e-mail</button>
+        <br>
+        <label>Mensagem:</label>
+        <textarea name="mensagem" required id="message"></textarea>
+        <button type="submit" class="botao">Enviar</button>
+      </form>
+    </section>
+    </main>
+    <footer>
+<p>bicho@spaceapes.org | 📞 (17) 96566-6768</p>
+    </footer>
+    
+</body>
+</html>
