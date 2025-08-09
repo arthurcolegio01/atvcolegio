@@ -4,3 +4,4 @@
 [atividade 3](https://arthurcolegio01.github.io/atvcolegio/vscode/at3/index.html)  
 [atividade 4](https://arthurcolegio01.github.io/atvcolegio/vscode/at4/index.html)  
 [atividade 5](https://arthurcolegio01.github.io/atvcolegio/vscode/at5/index.html)  
+[site principal](https://arthurcolegio01.github.io/atvcolegio/vscode/Site%20Principal/inicio.html)
